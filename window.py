@@ -17,4 +17,7 @@ window.geometry("800x500+150+150")
 Button_1 = tk.Button(window, text="Open Google chrome", bg="#545454", command=clicked)
 Button_1.pack()
 
+for i in range(0,2):
+  Button_1.pack()
+
 window.mainloop()
