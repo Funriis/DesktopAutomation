@@ -12,7 +12,7 @@ from clickBtn import clicked
 #Git commit -m "Commit desc"      (Commit)
 
 window = tk.Tk()
-window.geometry("800x500+200+200")
+window.geometry("800x500+150+150")
 
 Button_1 = tk.Button(window, text="Open Google chrome", bg="#545454", command=clicked)
 Button_1.pack()
